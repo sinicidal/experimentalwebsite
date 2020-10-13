@@ -1,0 +1,57 @@
+
+
+body {
+  display: grid;
+  height: 97%;
+  grid-gap: 5em;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    transition: 1s;
+     background-color:hotpink;
+}
+
+
+
+.pkt {
+  display: grid;
+  place-items: center;
+  background-color : pink;
+  border-radius: 1em ; 
+  box-shadow: -5px 5px salmon;
+    opacity: 75%;
+    object-fit: cover;
+}
+
+p {
+    color: lightgoldenrodyellow;
+    font-size: 3em;
+    display: grid;
+  place-items: center;
+    padding: 10px
+     
+}
+.left{
+    
+}
+.left:hover {
+  background-image: url(img/animation.gif);
+
+    opacity: 100%;
+      background-repeat: no-repeat;
+    background-size: 400px auto;
+  
+ 
+}
+.mid:hover {
+  background-image: url(img/F11A4F66-9641-492F-A2E9-FB1CFF40ECF7.jpg);
+  opacity: 100%;
+      background-repeat: no-repeat;
+background-size: 400px auto;
+ 
+}
+.right:hover {
+ background-image: url(img/IMG_9873.jpg);
+ opacity: 100%;
+      background-repeat: no-repeat;
+  background-size: 400px auto;
+
+}
